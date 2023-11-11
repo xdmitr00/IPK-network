@@ -1,8 +1,14 @@
 # IPK-network
 
-Cílem projektu je implementovat klienta pro triviální (read-only) distribuovaný souborový systém.
-Tento systém používá URL pro identifikaci souborů a jejich umístění. Systém pro přístup k
-souborům používá File Service Protocol (FSP). V projektu bude stačit implementovat pouze jeden
-typ požadavku, kterým je příkaz GET . Systém používá symbolických jmen, které jsou překládány
-na IP adresy pomocí protokolu Name Service Protocol (NSP). Tento protokol umožňuje získat IP
-adresu a číslo portu, kde daný souborový server běží.
+# Distributed File System Client
+
+This project focuses on implementing a client for a read-only distributed file system using Python. The system relies on the File Service Protocol (FSP) and the Name Service Protocol (NSP) for accessing files.
+
+## Task
+
+Implement the `GET` command for the FSP protocol.
+
+## Usage
+
+```bash
+python3 client.py -f <SURL> -n <NAMESERVER>
