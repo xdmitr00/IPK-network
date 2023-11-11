@@ -11,4 +11,4 @@ Implement the `GET` command for the FSP protocol.
 ## Usage
 
 ```bash
-python3 client.py -f <SURL> -n <NAMESERVER>
+python3 fileget.py -f <SURL> -n <NAMESERVER>
